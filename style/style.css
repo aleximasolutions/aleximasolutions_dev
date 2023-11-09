@@ -14,6 +14,7 @@
     --bgColor: #1B1B1B;
     --mobileBreakPoint: 991px;
     --descrColor: #A8A8A8;
+    --stopColor: #ff0000
 }
 
 /* Начальные обнуляющие стили
@@ -55,6 +56,12 @@ h6 {
 
 body {
     background: var(--bgColor);
+    background-image: url('./../assets/icons/bodybg.svg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 6889px;
+
 }
 
 body._un__scroll {
