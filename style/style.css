@@ -4,7 +4,7 @@
 ========================================================================= */
 :root {
     /* Ширина контейнера (Воодить без учета внутрених отступов) */
-    --containerWidth: 1410px;
+    --containerWidth: 1210px;
     --textColor: #fff;
     --titleColor: #fff;
     --primaryFont: 'RobotoCondensed';
