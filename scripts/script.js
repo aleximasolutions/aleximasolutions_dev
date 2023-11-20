@@ -1,6 +1,8 @@
 const activeClassName = '_active';
 const unScrollClassName = '_un__scroll';
 const body = document.body
+const brackPointMedium = 768
+
 
 const menuBtn = document.querySelector('a.nav__menu-btn');
 const navMenu = document.querySelector('div.nav__menu');
@@ -71,10 +73,7 @@ function setTabs() {
 
             const id = btn.getAttribute(atrName);
             allBtnTabs.forEach(removeActive);
-            allTabs.forEach((tab) => {
-                removeActive(tab)
-                tab.querySelector(descrTargetClass).textContent = ''
-            });
+            allTabs.forEach(removeActive);
 
             btn.classList.add(activeClassName);
 
@@ -85,20 +84,17 @@ function setTabs() {
             }
 
             tab.classList.add(activeClassName);
-            let descrSourse = tab.querySelector(descrSourseClass).innerHTML;
-            let descrTarget = tab.querySelector(descrTargetClass);
-            let txt = descrSourse.replace(/\s{2,}/g, ' ').trim();
+            // let descrSourse = tab.querySelector(descrSourseClass).innerHTML;
+            // let descrTarget = tab.querySelector(descrTargetClass);
+            // let txt = descrSourse.replace(/\s{2,}/g, ' ').trim();
 
 
-            console.log(txt);
-
-            if (innerWidth > 768) {
-                let speed = 50;
-                typingAnimation(descrTarget, txt, 0, speed)
-            }
-            else {
-                descrTarget.innerHTML = txt
-            }
+            // if (innerWidth > brackPointMedium) {
+            //     typingAnimation(descrTarget, txt,)
+            // }
+            // else {
+            //     descrTarget.innerHTML = txt
+            // }
         });
 
 
