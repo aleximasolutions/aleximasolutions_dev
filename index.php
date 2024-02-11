@@ -45,7 +45,7 @@ error_reporting(E_ALL);
         <header id="header" class="header">
           <div class="container">
             <div class="header-content">
-              <a class="logo">
+              <a href="#header" class="logo">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="36"
@@ -192,33 +192,33 @@ error_reporting(E_ALL);
 
           <div id="content__right" class="content__right">
             <div class="cards">
-              <a href="#!" class="card">
+              <a href="https://aleximasolutions.github.io/solution_fusion_lab/" class="card">
                 <h3 class="card-title">Fusion Lab</h3>
                 <img src="image/card1.png" alt="works" />
               </a>
-              <a href="#" class="card">
+              <a href="https://aleximasolutions.github.io/lofthouse/" class="card">
                 <h3 class="card-title">Loft House</h3>
                 <img src="image/card2.png" alt="works" />
               </a>
-              <a href="#" class="card">
+              <a href="https://aleximasolutions.github.io/vue_cinema/" class="card">
                 <h3 class="card-title">VUE cinema</h3>
                 <img src="image/card3.png" alt="works" />
               </a>
-              <a href="#" class="card">
+              <a href="https://aleximasolutions.github.io/luxe/" class="card">
                 <h3 class="card-title">Luxe</h3>
                 <img src="image/card4.png" alt="works" />
               </a>
-              <a href="#" class="card">
+              <a href="https://aleximasolutions.github.io/SFLAB_TG_BOTS/" class="card">
                 <h3 class="card-title">SFLAB bot</h3>
                 <img src="image/card5.png" alt="works" />
               </a>
-              <a href="#" class="card">
+              <a href="https://aleximasolutions.github.io/amind/" class="card">
                 <h3 class="card-title">Amind</h3>
                 <img src="image/card6.png" alt="works" />
               </a>
-              <a href="#" class="card">
+              <!-- <a href="#" class="card">
                 <h3 class="card-title more">More works...</h3>
-              </a>
+              </a> -->
             </div>
           </div>
         </section>
@@ -369,7 +369,7 @@ error_reporting(E_ALL);
                   You can reach us by filling out the form, or by sending an
                   email or a message via messenger.
                 </p>
-                <a href="#!">Privacy Statement (EU)</a>
+                <!-- <a href="#!">Privacy Statement (EU)</a> -->
               </div>
               <form id="form" action="#" method="POST" class="cta__form">
               <div id="main-success" class="notification_items">
@@ -419,7 +419,7 @@ error_reporting(E_ALL);
           <div class="container">
             <div class="footer-content">
               <div class="footer-logo-items">
-                <a href="index.html" class="footer-logo">
+                <a href="#header" class="footer-logo">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="36"
