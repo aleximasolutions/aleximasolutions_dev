@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', () => {
     menuBtn.addEventListener('click', onClick);
 
 
-    const navLinkAttribute = 'nav-link'
+    const navLinkAttribute = 'data-nav-link'
     const sectionAttribute = 'data-section'
 
     var navBtns = document.querySelectorAll(`[${navLinkAttribute}]`);
