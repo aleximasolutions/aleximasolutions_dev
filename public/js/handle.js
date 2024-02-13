@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       var formData = new FormData(form);
-      fetch("action.php", { method: 'POST', body: formData })
+      fetch("api/action.php", { method: 'POST', body: formData })
         .then(res => {
           if (!res.ok) {
             throw new Error('Network response was not ok');

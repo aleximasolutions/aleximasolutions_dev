@@ -2,7 +2,7 @@
 session_start();
 header('Content-Type: application/json');
 $data = array();
-include 'csrf.php';
+include '../../func.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!verifyCSRFToken($_POST["csrf"])) {
       $data = [
@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     $mistakes = validate($_POST["name"], $_POST["phone"], $_POST["email"]);
     if ($mistakes['name'] == "" && $mistakes['phone'] == "" && $mistakes['email'] == "") {
-      $file = '../clients/clients.json';
+      $file = '../../clients.json';
       $data = array(
         "name" => $_POST["name"],
         "phone" => $_POST["phone"],
