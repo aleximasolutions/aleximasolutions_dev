@@ -15,11 +15,11 @@
   <title>Create Professional Web Development Solutions</title>
   <meta name="description" content="Alexima Solution: Creating Cutting-Edge Web and Mobile Applications. Web development, mobile apps, CMS, and professional development services.">
   <meta name="keywords" content="Web development, Mobile applications, CMS, Professional development, Web application creation, Experienced developers, iOS, Android, React Native, PWA, IoT, AMP, Voice search optimization, API-first development, AI-powered chatbots">
-  <meta property="og:type" content="website"></meta>
-  <meta property="og:url" content="https://dev.aleximasolutions.com"></meta>
-  <meta property="og:title" content="Professional Web Development || Aleximasolutions #Dev "></meta>
-  <meta property="og:description" content="Alexima Solution: Creating Cutting-Edge Web and Mobile Applications. Web development, mobile apps, CMS, and professional development services."></meta>
-  <meta property="og:image" content="https://dev.aleximasolutions.com/image/aleximasolutions_dev.png"></meta>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dev.aleximasolutions.com">
+  <meta property="og:title" content="Professional Web Development || Aleximasolutions #Dev ">
+  <meta property="og:description" content="Alexima Solution: Creating Cutting-Edge Web and Mobile Applications. Web development, mobile apps, CMS, and professional development services.">
+  <meta property="og:image" content="https://dev.aleximasolutions.com/image/aleximasolutions_dev.png">
 </head>
 
 <body>
@@ -404,9 +404,9 @@
             </ul>
 
             <ul class="footer__list">
-              <h3 class="footer__list-title">
+              <p class="footer__list-title">
                 Social
-              </h3>
+              </p>
 
               <li class="footer__list-item">
                 <a href="#!" class="footer__list-link"> Instagram </a>
@@ -417,9 +417,9 @@
             </ul>
 
             <ul class="footer__list">
-              <h3 class="footer__list-title">
+              <p class="footer__list-title">
                 Contacts
-              </h3>
+              </p>
               <li class="footer__list-item">
                 Phone:
                 <a href="tel:+420608947745" class="footer__list-link">
