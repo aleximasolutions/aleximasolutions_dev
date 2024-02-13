@@ -404,9 +404,11 @@
             </ul>
 
             <ul class="footer__list">
+            <li class="footer__list-item">
               <p class="footer__list-title">
                 Social
               </p>
+            </li>
 
               <li class="footer__list-item">
                 <a href="#!" class="footer__list-link"> Instagram </a>
@@ -417,9 +419,11 @@
             </ul>
 
             <ul class="footer__list">
+            <li class="footer__list-item">
               <p class="footer__list-title">
                 Contacts
               </p>
+              </li>
               <li class="footer__list-item">
                 Phone:
                 <a href="tel:+420608947745" class="footer__list-link">
