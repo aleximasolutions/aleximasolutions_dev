@@ -19,7 +19,7 @@
   <meta property="og:url" content="https://dev.aleximasolutions.com">
   <meta property="og:title" content="Professional Web Development || Aleximasolutions #Dev ">
   <meta property="og:description" content="Alexima Solution: Creating Cutting-Edge Web and Mobile Applications. Web development, mobile apps, CMS, and professional development services.">
-  <meta property="og:image" content="https://dev.aleximasolutions.com/image/aleximasolutions_dev.png">
+  <meta property="og:image" content="https://dev.aleximasolutions.com/image/dev_aleximasolutions.png">
 </head>
 
 <body>
